@@ -29,13 +29,13 @@ class Search extends Component {
             <div>
 
              <form onSubmit={this.handleSubmit} >
-             <p>what is your name, pilot?</p>
+             <p>What is your name, pilot?</p>
           <input value={this.state.name}  onChange={this.nameChange} type="text" placeholder="Your Name"/>
           <br/>
-          <button>Submit</button>
         </form>
 
        <Name name={this.state.name} />
+       <br/>
       </div>
            
         )

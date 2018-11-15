@@ -30,3 +30,15 @@
     transform: rotate(360deg);
   }
 }
+
+.card-cont {
+  display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+  width:33%;
+  margin-bottom:10px;
+  margin-right:2px;
+}
